@@ -36,43 +36,6 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.1.2</version> <!-- Use your Spring Boot version -->
   </parent>
-
-  <dependencies>
-    <!-- Spring Boot Starter Web -->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-
-    <!-- Servlet API (provided by Tomcat) -->
-    <dependency>
-      <groupId>jakarta.servlet</groupId>
-      <artifactId>jakarta.servlet-api</artifactId>
-      <scope>provided</scope>
-    </dependency>
-
-    <!-- JUnit for tests -->
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-
-  <build>
-    <plugins>
-      <!-- Spring Boot Maven Plugin -->
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <mainClass>sa.com.MyMavenAppApplication</mainClass> <!-- Change to your main class -->
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-
 </project>
 
 
