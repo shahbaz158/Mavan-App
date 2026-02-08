@@ -15,6 +15,7 @@ spec:
       containers:
         - name: javawebappcontainer
           image: shahbazhcl/my-maven-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
 ---
