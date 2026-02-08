@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: javawebappcontainer
-          image: shahbazhcl/my-maven-app
+          image: shahbazhcl/my-maven-app:latest
           ports:
             - containerPort: 8080
 ---
