@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: javawebappcontainer
-          image: shahbazhcl/my-maven-app:${BUILD_NUMBER}
-          imagePullPolicy: Always
+          image: shahbazhcl/my-maven-app
           ports:
             - containerPort: 8080
 ---
