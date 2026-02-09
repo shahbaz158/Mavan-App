@@ -1,5 +1,5 @@
 <html>
   <body>
-    <h1> My Maven App is running on kubernetes cluster successfyllu</h1>
+    <h1> My Maven App is running on kubernetes cluster successfylluy</h1>
   </body>
 </html>
